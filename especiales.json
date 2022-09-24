@@ -8,10 +8,10 @@
     },
     {
         "id":2, 
-        "title":"Pizza de jamon y queso",
-        "descripcion": "Si amas lo clásico, esta es tu pizza. Delicioso queso Mozzarella, jamón y tomate al oreganato.",
+        "title":"Helado con miel",
+        "descripcion": "Si amas lo clásico, esta es un helado. Delicioso granizado, pasas y miel.",
         "precio": 30,
-        "image":"./images/2.jpg"  
+        "image":"./images/img1.jpg"  
      },
      {
         "id":3, 

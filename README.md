@@ -19,7 +19,7 @@
 - Proyecto restaurant
 
 ## Descripción del proyecto:
-Landing page animada desarrollada con HTML, CSS Y JavaScript, está estructurada con una base formada con CSS GRID, consta de un menú vertical fijado flotante, header (encabezado), 4 secciones y el footer (pie de página), botones personalizados, formulario de contacto con validación y botón de subida.   
+Landing page animada desarrollada con HTML, CSS Y JavaScript, está estructurada con una base formada con CSS GRID, consta de un menú vertical fijado flotante, header (encabezado), 4 secciones y el footer (pie de página), botones personalizados, formulario de contacto con validación preloader personalizado y botón de subida.   
 
 ## Diseño responsivo:
 - Desktop: 1440px   

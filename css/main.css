@@ -1340,16 +1340,17 @@ RESPONSIVE DESING OFICIAL
     margin-top: 50px;
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     grid-template-rows: auto;
-    grid-template-areas: "descriptionGridBox1  descriptionGridBox1  descriptionGridBox1  descriptionGridBox1" "imageGridBox1        imageGridBox1        imageGridBox1        imageGridBox1" "descriptionGridBox2  descriptionGridBox2  descriptionGridBox2  descriptionGridBox2" "imageGridBox2        imageGridBox2        imageGridBox2        imageGridBox2" "descriptionGridBox3  descriptionGridBox3  descriptionGridBox3  descriptionGridBox3" "imageGridBox3        imageGridBox3        imageGridBox3        imageGridBox3" "descriptionGridBox4  descriptionGridBox4  descriptionGridBox4  descriptionGridBox4" "imageGridBox4        imageGridBox4        imageGridBox4        imageGridBox4";
+    grid-template-areas: "descriptionGridBox1" "imageGridBox1" "descriptionGridBox2" "imageGridBox2" "descriptionGridBox3" "imageGridBox3" "descriptionGridBox4" "imageGridBox4";
   }
   .contSectionOfertas .contSectionOfertas_grid .imageGridBox1 {
     grid-area: imageGridBox1;
   }
   .contSectionOfertas .contSectionOfertas_grid .imageGridBox1 .contImageBox1 {
-    width: 100%;
-    height: 100%;
+    width: 90%;
+    height: 300px;
+    margin: auto;
   }
   .contSectionOfertas .contSectionOfertas_grid .descriptionGridBox1 {
     grid-area: descriptionGridBox1;
@@ -1382,8 +1383,9 @@ RESPONSIVE DESING OFICIAL
     grid-area: imageGridBox2;
   }
   .contSectionOfertas .contSectionOfertas_grid .imageGridBox2 .contImageBox2 {
-    width: 100%;
-    height: 100%;
+    width: 90%;
+    height: 300px;
+    margin: auto;
   }
   .contSectionOfertas .contSectionOfertas_grid .descriptionGridBox2 {
     grid-area: descriptionGridBox2;
@@ -1443,8 +1445,9 @@ RESPONSIVE DESING OFICIAL
     grid-area: imageGridBox3;
   }
   .contSectionOfertas .contSectionOfertas_grid .imageGridBox3 .contImageBox3 {
-    width: 100%;
-    height: 100%;
+    width: 90%;
+    height: 300px;
+    margin: auto;
   }
   .contSectionOfertas .contSectionOfertas_grid .descriptionGridBox4 {
     grid-area: descriptionGridBox4;
@@ -1477,8 +1480,9 @@ RESPONSIVE DESING OFICIAL
     grid-area: imageGridBox4;
   }
   .contSectionOfertas .contSectionOfertas_grid .imageGridBox4 .contImageBox4 {
-    width: 100%;
-    height: 100%;
+    width: 90%;
+    height: 300px;
+    margin: auto;
   }
 }
 .contSectionSobreNos {
