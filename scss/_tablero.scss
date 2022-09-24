@@ -1,0 +1,266 @@
+@import "fonts-colors";
+
+.contTablero{
+    //margin-top: 10px;
+    width: 100%;
+    height: 100vh;
+    padding: 10px 0px;
+    background: $color-primario-blue;
+    position: relative;
+    z-index: 100;
+    .contTablero_btnResp{
+        width: 50px;
+        height: 50px;
+        background: greenyellow;
+        position: absolute;
+        right: 10px;
+        top: 50px;
+        display: none;
+        
+    }
+
+    .contTablero_cicle{
+        width:100px;
+        height:100px;
+        border-radius: 50%;
+        background: $color-primario-logo;
+        margin: 20px auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .contTablero_cicle_title{
+            //Light 300
+             //Bold 700
+            color: white;
+            font-weight:700;
+            font-size: 50px;
+            text-transform: uppercase;
+        }
+    }
+
+    .contTablero_ul{
+        width:75%;
+        margin: 30px auto;
+        padding: 10px 0px;
+        background: $color-primario-blue-trans;
+        border-radius: 10px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        .contTablero_ul_li{
+            //background: rgb(83, 83, 83);
+            list-style: none;
+            margin: 10px 20px;
+            .liEnlace{
+                //background: rgb(59, 59, 59);
+                color: white;
+                text-decoration: none;
+                font-weight: 300;
+               
+                .iconMenu{
+                    width: 30px;
+                    font-size: 20px;
+                    margin-right:10px;
+                }
+                .iconArrow{
+                    margin-left: -10px;
+                    color: rgb(235, 235, 93);
+                    transition:0.2s all;
+                    opacity: 0;
+                }
+            }
+            .liEnlace:hover{
+                //background: green;
+                color: $color-primario-yellow;
+                .iconMenu{
+                    color: $color-primario-yellow;
+                }
+                .iconArrow{
+                    margin-left: 10px;
+                    opacity: 1;
+                }
+            }
+        }
+    }
+
+    .contTablero_pie{
+        width: 100%;
+        padding: 30px 0px;
+        background: $color-primario-blue-trans;
+        text-align: center;
+        .contTablero_pie_title{
+             color:$color-primario-yellow;
+             font-weight: 700;
+             font-size: 20px;
+        }
+        .contTablero_pie_number{
+             margin-top: 10px;
+             color: white;
+             font-weight: 300;
+             font-size: 12px;
+        }
+        .contTablero_pie_text{
+             width: 80%;
+             margin: 10px auto;
+             color: rgb(216, 215, 215);
+             font-weight: 300;
+             font-size: 12px;
+        }
+    }
+}
+
+
+
+
+
+
+
+/******************************************************************
+*******************************************************************
+******************************************************************/
+@media (min-width:320px) and (max-width:1024px){
+    .contTablero{
+        //margin-top: 10px;
+        width: 100%;
+        height: 100vh;
+        padding: 10px 0px;
+        background: $color-primario-blue;
+        position: relative;
+        //pointer-events:unset;
+        .contTablero_btnResp{  
+            background: transparent;
+            position: absolute;
+            right: 20px;
+            top: 35px;
+            display: block;
+            .iconTablero{
+               color:white;
+               font-size: 40px;
+               cursor: pointer; 
+            }
+        }
+    
+        .contTablero_cicle{
+            width:100px;
+            height:100px;
+            border-radius: 50%;
+            background: $color-primario-logo;
+            margin: 20px auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .contTablero_cicle_title{
+                //Light 300
+                 //Bold 700
+                color: white;
+                font-weight:700;
+                font-size: 50px;
+                text-transform: uppercase;
+            }
+        }
+    
+        .contTablero_ul{
+            width:280px;
+            margin: 30px auto;
+            padding: 10px 0px;
+            background: $color-primario-blue;
+            border-radius: 10px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            box-shadow: 0px 0px 5px $color-primario-logo;
+            .contTablero_ul_li{
+                //background: rgb(83, 83, 83);
+                list-style: none;
+                margin: 10px 20px;
+                .liEnlace{
+                    //background: rgb(59, 59, 59);
+                    color: white;
+                    text-decoration: none;
+                    font-weight: 300;
+                    font-size: 18px;
+                   
+                    .iconMenu{
+                        width: 30px;
+                        font-size: 20px;
+                        margin-right:10px;
+                    }
+                    .iconArrow{
+                        margin-left: -10px;
+                        color: rgb(235, 235, 93);
+                        transition:0.2s all;
+                        opacity: 0;
+                    }
+                }
+                .liEnlace:hover{
+                    //background: green;
+                    color: $color-primario-yellow;
+                    .iconMenu{
+                        color: $color-primario-yellow;
+                    }
+                    .iconArrow{
+                        margin-left: 10px;
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+    
+        .contTablero_pie{
+            width: 100%;
+            padding: 10px 0px;
+            margin: auto;
+            border-radius: 0px;
+            background: $color-primario-blue;
+            text-align: center;
+            .contTablero_pie_title{
+                 color:$color-primario-yellow;
+                 font-weight: 700;
+                 font-size: 20px;
+            }
+            .contTablero_pie_number{
+                 margin-top: 10px;
+                 color: white;
+                 font-weight: 300;
+                 font-size: 12px;
+            }
+            .contTablero_pie_text{
+                 width: 80%;
+                 margin: 10px auto;
+                 color: rgb(216, 215, 215);
+                 font-weight: 300;
+                 font-size: 12px;
+            }
+        }
+    }
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

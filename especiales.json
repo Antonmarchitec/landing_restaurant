@@ -1,0 +1,32 @@
+[
+    {
+       "id":1, 
+       "title":"Asado frito",
+       "descripcion": "Esta receta tradicional consiste en cocinar los filetes de carne de res, previamente asada, en un ahogado. Se acompaña con arroz y papas.",
+       "precio": 25,
+       "image":"./images/1.jpg"  
+    },
+    {
+        "id":2, 
+        "title":"Pizza de jamon y queso",
+        "descripcion": "Si amas lo clásico, esta es tu pizza. Delicioso queso Mozzarella, jamón y tomate al oreganato.",
+        "precio": 30,
+        "image":"./images/2.jpg"  
+     },
+     {
+        "id":3, 
+        "title":"Desayuno gurmet",
+        "descripcion": "Esta recCondimentos, granos, frutos y verduras típicas del país, como epazote, jitomate, chile, tipo de .",
+        "precio": 18, 
+        "image":"./images/3.jpg"  
+
+     },
+     {
+        "id":4, 
+        "title":"Desayuno con jugo",
+        "descripcion": "Hidratos de carbono: Pan integral, fruta (plátano, manzana o naranja) y frutos secos",
+        "precio": 15,
+        "image":"./images/1.jpg"  
+ 
+     }
+]

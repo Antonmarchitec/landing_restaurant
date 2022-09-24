@@ -1,0 +1,45 @@
+body {
+  background: #fff;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgb(165, 165, 165);
+}
+
+
+
+/**********PERSONALIZACION DE ESTILOS************/
+.swiper-slide{
+    background:rgb(12, 20, 59);
+    padding: 10px;
+}
+.swiper-slide .swiper_contImage{
+  width: 100%;
+  height: 85%;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.swiper-slide .swiper_title{
+  margin-top: 10px;
+  text-align: center;
+  color: white;
+  font-size:15px;
+  font-weight: 300; 
+}
+

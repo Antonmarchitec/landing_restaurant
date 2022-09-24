@@ -1,0 +1,846 @@
+@import "fonts-colors";
+
+.contSectionOfertas{
+    width: 100%;
+    padding: 100px 0px;
+    background: rgb(255, 255, 255);
+    .contSectionOfertas_titleTop{
+        text-align: center;
+        color: $color-primario-blue-trans;
+        font-size: 40px;
+        line-height: 60px;
+    }
+    .contSectionOfertas_titleBotton{
+        text-align: center;
+        color: $color-primario-blue;
+        font-weight: 700;
+        font-size: 45px;
+    }
+    .contSectionOfertas_grid{
+        margin-top: 50px;
+        width: 100%;
+        //padding: 10px 0px;
+        display: grid;
+        //grid-gap: 5px;
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: auto;
+        grid-template-areas: "imageGridBox1        descriptionGridBox1     imageGridBox2        descriptionGridBox2"
+                             "descriptionGridBox3  imageGridBox3           descriptionGridBox4  imageGridBox4 ";
+        .imageGridBox1{
+            //padding: 10px 0px;
+            //background: brown;
+            grid-area: imageGridBox1;
+            .contImageBox1{
+                width: 100%;
+                height: 100%;
+                //padding: 5px 0px;
+                background: rgb(101, 5, 5);
+            }
+        }
+        .descriptionGridBox1{
+            //padding: 10px 0px;
+            //background: brown;
+            grid-area: descriptionGridBox1;
+            .contDescription{
+                width: 100%;
+                height: 200px;
+                padding: 10px;
+                background: rgb(255, 255, 255);
+                text-align: center;
+                .contDescription_title{
+                    font-size:25px ;
+                    color: $color-primario-blue;
+                }
+                .contDescription_parrafo{
+                    margin-top: 5px;
+                }
+                .contDescription_precio{
+                    margin: 5px auto;
+                    border-radius: 50%;
+                    background: $color-primario-blue;
+                    width: 50px;
+                    height: 50px;
+                    color: white;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+            }
+        }
+        .imageGridBox2{
+            //padding: 10px 0px;
+            //background: brown;
+            grid-area: imageGridBox2;
+            .contImageBox2{
+                width: 100%;
+                height: 100%;
+                //padding: 5px 0px;
+                background: rgb(101, 5, 5);
+            }
+        }
+        .descriptionGridBox2{
+            //padding: 10px 0px;
+            //background: brown;
+            grid-area: descriptionGridBox2;
+            .contDescription{
+                width: 100%;
+                height: 200px;
+                padding: 10px;
+                background: rgb(255, 255, 255);
+                text-align: center;
+                .contDescription_title{
+                    font-size:25px ;
+                    color: $color-primario-blue;
+
+                }
+                .contDescription_parrafo{
+                    margin-top: 5px;
+                }
+                .contDescription_precio{
+                    margin: 5px auto;
+                    border-radius: 50%;
+                    background: $color-primario-blue;
+                    width: 50px;
+                    height: 50px;
+                    color: white;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+            }
+        }
+        .descriptionGridBox3{
+            //padding: 10px 0px;
+            //background: brown;
+            grid-area: descriptionGridBox3;
+            .contDescription{
+                width: 100%;
+                height: 200px;
+                padding: 10px;
+                background: rgb(255, 255, 255);
+                text-align: center;
+                .contDescription_title{
+                    font-size:25px ;
+                    color: $color-primario-blue;
+
+                }
+                .contDescription_parrafo{
+                    margin-top: 5px;
+                }
+                .contDescription_precio{
+                    margin: 5px auto;
+                    border-radius: 50%;
+                    background: $color-primario-blue;
+                    width: 50px;
+                    height: 50px;
+                    color: white;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+            }
+        }
+        .imageGridBox3{
+            //padding: 10px 0px;
+            //background: brown;
+            grid-area: imageGridBox3;
+            .contImageBox3{
+                width: 100%;
+                height: 100%;
+                //padding: 5px 0px;
+                background: rgb(101, 5, 5);
+            }
+        }
+        .descriptionGridBox4{
+            //padding: 10px 0px;
+            //background: brown;
+            grid-area: descriptionGridBox4;
+            .contDescription{
+                width: 100%;
+                height: 200px;
+                padding: 10px;
+                background: rgb(255, 255, 255);
+                text-align: center;
+                .contDescription_title{
+                    font-size:25px ;
+                    color: $color-primario-blue;
+
+                }
+                .contDescription_parrafo{
+                    margin-top: 5px;
+                }
+                .contDescription_precio{
+                    margin: 5px auto;
+                    border-radius: 50%;
+                    background: $color-primario-blue;
+                    width: 50px;
+                    height: 50px;
+                    color: white;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+            }
+        }
+        .imageGridBox4{
+            //padding: 10px 0px;
+            //background: brown;
+            grid-area: imageGridBox4;
+            .contImageBox4{
+                width: 100%;
+                height: 100%;
+                //padding: 5px 0px;
+                background: rgb(101, 5, 5);
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+/*
+RESPONSIVE DESING OFICIAL
+@media (min-width:1025px) and (max-width:1200px){}
+*/
+@media (min-width:1025px) and (max-width:1200px){
+    .contSectionOfertas{
+        width: 100%;
+        padding: 100px 0px;
+        //background: rgb(212, 93, 93);
+        /*.contSectionOfertas_titleTop{
+            text-align: center;
+            color: $color-primario-blue-trans;
+            font-size: 40px;
+            line-height: 20px;
+        }
+        .contSectionOfertas_titleBotton{
+            text-align: center;
+            color: $color-primario-blue;
+            font-weight: 700;
+            font-size: 45px;
+        }*/
+        .contSectionOfertas_grid{
+            margin-top: 50px;
+            width: 100%;
+            //@at-root: 10px 0px;
+            //background: rgb(34, 159, 163);
+            display: grid;
+            //grid-gap: 5px;
+            grid-template-columns: repeat(4,1fr);
+            grid-template-rows: auto;
+            grid-template-areas: "imageGridBox1        descriptionGridBox1     imageGridBox2        descriptionGridBox2"
+                                 "descriptionGridBox3  imageGridBox3           descriptionGridBox4  imageGridBox4 ";
+            .imageGridBox1{
+                //padding: 10px 0px;
+                //background: brown;
+                grid-area: imageGridBox1;
+                .contImageBox1{
+                    width: 100%;
+                    height: 100%;
+                    //padding: 5px 0px;
+                    background: rgb(101, 5, 5);
+                }
+            }
+            .descriptionGridBox1{
+                //padding: 10px 0px;
+                //background: brown;
+                grid-area: descriptionGridBox1;
+                .contDescription{
+                    width: 100%;
+                    height: 230px;
+                    padding: 10px;
+                    background: rgb(255, 255, 255);
+                    text-align: center;
+                    .contDescription_title{
+                        font-size:25px ;
+                        color: $color-primario-blue;
+                    }
+                    .contDescription_parrafo{
+                        margin-top: 5px;
+                    }
+                    .contDescription_precio{
+                        margin: 5px auto;
+                        border-radius: 50%;
+                        background: $color-primario-blue;
+                        width: 50px;
+                        height: 50px;
+                        color: white;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                }
+            }
+            .imageGridBox2{
+                //padding: 10px 0px;
+                //background: brown;
+                grid-area: imageGridBox2;
+                .contImageBox2{
+                    width: 100%;
+                    height: 100%;
+                    //padding: 5px 0px;
+                    background: rgb(101, 5, 5);
+                }
+            }
+            .descriptionGridBox2{
+                //padding: 10px 0px;
+                //background: brown;
+                grid-area: descriptionGridBox2;
+                .contDescription{
+                    width: 100%;
+                    height: 230px;
+                    padding: 10px;
+                    background: rgb(255, 255, 255);
+                    text-align: center;
+                    .contDescription_title{
+                        font-size:25px ;
+                        color: $color-primario-blue;
+    
+                    }
+                    .contDescription_parrafo{
+                        margin-top: 5px;
+                    }
+                    .contDescription_precio{
+                        margin: 5px auto;
+                        border-radius: 50%;
+                        background: $color-primario-blue;
+                        width: 50px;
+                        height: 50px;
+                        color: white;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                }
+            }
+            .descriptionGridBox3{
+                //padding: 10px 0px;
+                //background: brown;
+                grid-area: descriptionGridBox3;
+                .contDescription{
+                    width: 100%;
+                    height: 230px;
+                    padding: 10px;
+                    background: rgb(255, 255, 255);
+                    text-align: center;
+                    .contDescription_title{
+                        font-size:25px ;
+                        color: $color-primario-blue;
+    
+                    }
+                    .contDescription_parrafo{
+                        margin-top: 5px;
+                    }
+                    .contDescription_precio{
+                        margin: 5px auto;
+                        border-radius: 50%;
+                        background: $color-primario-blue;
+                        width: 50px;
+                        height: 50px;
+                        color: white;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                }
+            }
+            .imageGridBox3{
+                //padding: 10px 0px;
+                //background: brown;
+                grid-area: imageGridBox3;
+                .contImageBox3{
+                    width: 100%;
+                    height: 100%;
+                    //padding: 5px 0px;
+                    background: rgb(101, 5, 5);
+                }
+            }
+            .descriptionGridBox4{
+                //padding: 10px 0px;
+                //background: brown;
+                grid-area: descriptionGridBox4;
+                .contDescription{
+                    width: 100%;
+                    height: 230px;
+                    padding: 10px;
+                    background: rgb(255, 255, 255);
+                    text-align: center;
+                    .contDescription_title{
+                        font-size:25px ;
+                        color: $color-primario-blue;
+    
+                    }
+                    .contDescription_parrafo{
+                        margin-top: 5px;
+                    }
+                    .contDescription_precio{
+                        margin: 5px auto;
+                        border-radius: 50%;
+                        background: $color-primario-blue;
+                        width: 50px;
+                        height: 50px;
+                        color: white;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                }
+            }
+            .imageGridBox4{
+                //padding: 10px 0px;
+                //background: brown;
+                grid-area: imageGridBox4;
+                .contImageBox4{
+                    width: 100%;
+                    height: 100%;
+                    //padding: 5px 0px;
+                    background: rgb(101, 5, 5);
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*********************************************************
+**************************************
+****************************************
+****************************************/
+@media (min-width:481px)  and (max-width:640px){
+    .contSectionOfertas{
+        width: 100%;
+        padding: 100px 0px;
+        /*.contSectionOfertas_titleTop{
+            text-align: center;
+            color: $color-primario-blue-trans;
+            font-size: 40px;
+            line-height: 20px;
+        }
+        .contSectionOfertas_titleBotton{
+            text-align: center;
+            color: $color-primario-blue;
+            font-weight: 700;
+            font-size: 45px;
+        }*/
+        .contSectionOfertas_grid{
+            margin-top: 50px;
+            width: 100%;
+            //@at-root: 10px 0px;
+            //background: rgb(34, 159, 163);
+            display: grid;
+            //grid-gap: 5px;
+            grid-template-columns: repeat(4,1fr);
+            grid-template-rows: auto;
+            grid-template-areas: "imageGridBox1        imageGridBox1           descriptionGridBox1        descriptionGridBox1"
+                                 "descriptionGridBox2  descriptionGridBox2     imageGridBox2              imageGridBox2 "
+                                 "imageGridBox3        imageGridBox3           descriptionGridBox3        descriptionGridBox3"
+                                 "descriptionGridBox4  descriptionGridBox4     imageGridBox4              imageGridBox4 ";
+            .imageGridBox1{
+                //padding: 10px 0px;
+                //background: brown;
+                grid-area: imageGridBox1;
+                .contImageBox1{
+                    width: 100%;
+                    height: 100%;
+                    //padding: 5px 0px;
+                    background: rgb(101, 5, 5);
+                }
+            }
+            .descriptionGridBox1{
+                //padding: 10px 0px;
+                //background: brown;
+                grid-area: descriptionGridBox1;
+                .contDescription{
+                    width: 100%;
+                    height: 230px;
+                    padding: 10px;
+                    background: rgb(255, 255, 255);
+                    text-align: center;
+                    .contDescription_title{
+                        font-size:25px ;
+                        color: $color-primario-blue;
+                    }
+                    .contDescription_parrafo{
+                        margin-top: 5px;
+                    }
+                    .contDescription_precio{
+                        margin: 5px auto;
+                        border-radius: 50%;
+                        background: $color-primario-blue;
+                        width: 50px;
+                        height: 50px;
+                        color: white;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                }
+            }
+            .imageGridBox2{
+                //padding: 10px 0px;
+                //background: brown;
+                grid-area: imageGridBox2;
+                .contImageBox2{
+                    width: 100%;
+                    height: 100%;
+                    //padding: 5px 0px;
+                    background: rgb(101, 5, 5);
+                }
+            }
+            .descriptionGridBox2{
+                //padding: 10px 0px;
+                //background: brown;
+                grid-area: descriptionGridBox2;
+                .contDescription{
+                    width: 100%;
+                    height: 230px;
+                    padding: 10px;
+                    background: rgb(255, 255, 255);
+                    text-align: center;
+                    .contDescription_title{
+                        font-size:25px ;
+                        color: $color-primario-blue;
+    
+                    }
+                    .contDescription_parrafo{
+                        margin-top: 5px;
+                    }
+                    .contDescription_precio{
+                        margin: 5px auto;
+                        border-radius: 50%;
+                        background: $color-primario-blue;
+                        width: 50px;
+                        height: 50px;
+                        color: white;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                }
+            }
+            .descriptionGridBox3{
+                //padding: 10px 0px;
+                //background: brown;
+                grid-area: descriptionGridBox3;
+                .contDescription{
+                    width: 100%;
+                    height: 230px;
+                    padding: 10px;
+                    background: rgb(255, 255, 255);
+                    text-align: center;
+                    .contDescription_title{
+                        font-size:25px ;
+                        color: $color-primario-blue;
+    
+                    }
+                    .contDescription_parrafo{
+                        margin-top: 5px;
+                    }
+                    .contDescription_precio{
+                        margin: 5px auto;
+                        border-radius: 50%;
+                        background: $color-primario-blue;
+                        width: 50px;
+                        height: 50px;
+                        color: white;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                }
+            }
+            .imageGridBox3{
+                //padding: 10px 0px;
+                //background: brown;
+                grid-area: imageGridBox3;
+                .contImageBox3{
+                    width: 100%;
+                    height: 100%;
+                    //padding: 5px 0px;
+                    background: rgb(101, 5, 5);
+                }
+            }
+            .descriptionGridBox4{
+                //padding: 10px 0px;
+                //background: brown;
+                grid-area: descriptionGridBox4;
+                .contDescription{
+                    width: 100%;
+                    height: 230px;
+                    padding: 10px;
+                    background: rgb(255, 255, 255);
+                    text-align: center;
+                    .contDescription_title{
+                        font-size:25px ;
+                        color: $color-primario-blue;
+    
+                    }
+                    .contDescription_parrafo{
+                        margin-top: 5px;
+                    }
+                    .contDescription_precio{
+                        margin: 5px auto;
+                        border-radius: 50%;
+                        background: $color-primario-blue;
+                        width: 50px;
+                        height: 50px;
+                        color: white;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                }
+            }
+            .imageGridBox4{
+                //padding: 10px 0px;
+                //background: brown;
+                grid-area: imageGridBox4;
+                .contImageBox4{
+                    width: 100%;
+                    height: 100%;
+                    //padding: 5px 0px;
+                    background: rgb(101, 5, 5);
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/********************************************
+******************************************
+******************************************/
+@media (min-width:320px)  and (max-width:480px){
+    .contSectionOfertas{
+        width: 100%;
+        padding:0px;
+        /*.contSectionOfertas_titleTop{
+            text-align: center;
+            color: $color-primario-blue-trans;
+            font-size: 40px;
+            line-height: 20px;
+        }
+        .contSectionOfertas_titleBotton{
+            text-align: center;
+            color: $color-primario-blue;
+            font-weight: 700;
+            font-size: 45px;
+        }*/
+        .contSectionOfertas_grid{
+            margin-top: 50px;
+            width: 100%;
+            display: grid;
+            //background-color: violet;
+            //grid-gap: 1em;
+            grid-template-columns: repeat(4,1fr);
+            grid-template-rows: auto;
+            grid-template-areas: "descriptionGridBox1  descriptionGridBox1  descriptionGridBox1  descriptionGridBox1"
+                                 "imageGridBox1        imageGridBox1        imageGridBox1        imageGridBox1"
+                                 "descriptionGridBox2  descriptionGridBox2  descriptionGridBox2  descriptionGridBox2"
+                                 "imageGridBox2        imageGridBox2        imageGridBox2        imageGridBox2"
+                                 "descriptionGridBox3  descriptionGridBox3  descriptionGridBox3  descriptionGridBox3"
+                                 "imageGridBox3        imageGridBox3        imageGridBox3        imageGridBox3"
+                                 "descriptionGridBox4  descriptionGridBox4  descriptionGridBox4  descriptionGridBox4"
+                                 "imageGridBox4        imageGridBox4        imageGridBox4        imageGridBox4";
+            .imageGridBox1{
+                //padding: 10px 0px;
+                //background: brown;
+                grid-area: imageGridBox1;
+                .contImageBox1{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .descriptionGridBox1{
+                //padding: 10px 0px;
+                //background: brown;
+                grid-area: descriptionGridBox1;
+                .contDescription{
+                    width: 100%;
+                    height: 200px;
+                    padding: 25px 10px;
+                    text-align: center;
+                    .contDescription_title{
+                        font-size:25px ;
+                        color: $color-primario-blue;
+                    }
+                    .contDescription_parrafo{
+                        margin-top: 5px;
+                    }
+                    .contDescription_precio{
+                        margin: 15px auto;
+                        border-radius: 50%;
+                        background: $color-primario-blue;
+                        width: 50px;
+                        height: 50px;
+                        color: white;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                }
+            }
+
+
+            .imageGridBox2{
+                //padding: 10px 0px;
+                //background: brown;
+                grid-area: imageGridBox2;
+                .contImageBox2{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .descriptionGridBox2{
+                //padding: 10px 0px;
+                //background: brown;
+                grid-area: descriptionGridBox2;
+                .contDescription{
+                    width: 100%;
+                    height: 200px;
+                    padding: 25px 10px;
+                    text-align: center;
+                    .contDescription_title{
+                        font-size:25px ;
+                        color: $color-primario-blue;
+    
+                    }
+                    .contDescription_parrafo{
+                        margin-top: 5px;
+                    }
+                    .contDescription_precio{
+                        margin: 5px auto;
+                        border-radius: 50%;
+                        background: $color-primario-blue;
+                        width: 50px;
+                        height: 50px;
+                        color: white;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                }
+            }
+
+
+            .descriptionGridBox3{
+                //padding: 10px 0px;
+                //background: brown;
+                grid-area: descriptionGridBox3;
+                .contDescription{
+                    width: 100%;
+                    height: 200px;
+                    padding: 25px 10px;
+                    text-align: center;
+                    .contDescription_title{
+                        font-size:25px ;
+                        color: $color-primario-blue;
+    
+                    }
+                    .contDescription_parrafo{
+                        margin-top: 5px;
+                    }
+                    .contDescription_precio{
+                        margin: 5px auto;
+                        border-radius: 50%;
+                        background: $color-primario-blue;
+                        width: 50px;
+                        height: 50px;
+                        color: white;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                }
+            }
+            .imageGridBox3{
+                //padding: 10px 0px;
+                //background: brown;
+                grid-area: imageGridBox3;
+                .contImageBox3{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+
+
+            .descriptionGridBox4{
+                //padding: 10px 0px;
+                //background: brown;
+                grid-area: descriptionGridBox4;
+                .contDescription{
+                    width: 100%;
+                    height: 200px;
+                    padding: 25px 10px;
+                    text-align: center;
+                    .contDescription_title{
+                        font-size:25px ;
+                        color: $color-primario-blue;
+    
+                    }
+                    .contDescription_parrafo{
+                        margin-top: 5px;
+                    }
+                    .contDescription_precio{
+                        margin: 5px auto;
+                        border-radius: 50%;
+                        background: $color-primario-blue;
+                        width: 50px;
+                        height: 50px;
+                        color: white;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                }
+            }
+            .imageGridBox4{
+                //padding: 10px 0px;
+                //background: brown;
+                grid-area: imageGridBox4;
+                .contImageBox4{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+

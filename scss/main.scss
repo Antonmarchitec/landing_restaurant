@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    //font-family: 'Lato', sans-serif;
+    font-family: 'Antonio', sans-serif;
+}
+
+
+body{
+    scroll-behavior: unset;
+}
+body::-webkit-scrollbar{
+    width: 15px;
+}
+body::-webkit-scrollbar-thumb{
+    background: rgb(25, 25, 78);
+    border-radius: 20px;
+    height: 100px;
+}
+body::-webkit-scrollbar-thumb:hover{
+    background: rgb(38, 38, 122);
+    height: 150px;
+}
+
+
+
+html{
+    background: rgb(222, 222, 222);
+    scroll-behavior:smooth;
+}
+
+
+@import "grid";
+@import "cargarDowloader";
+@import "tablero";
+@import "header";
+@import "ofertas";
+@import "sobreNosotros";
+@import "mapa";  
+@import "clientes";
+@import "formulario";
+@import "footer";
+@import "fonts-colors";
+@import "btnTop";

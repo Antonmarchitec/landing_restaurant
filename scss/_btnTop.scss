@@ -1,0 +1,43 @@
+.btnTop{
+    width: 50px;
+    height: 50px;
+    position:fixed;
+    bottom: 40px;
+    right: 20px;
+    z-index: 50;
+    transition: 0.5s all ease-in-out;
+}
+.btnTop_JS{
+    opacity: 1;
+    animation-name: move;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    animation-direction: alternate;
+}
+@keyframes move{
+    from{
+       transform: translateY(0px);
+    }
+    to{
+        transform: translateY(10px);
+    }
+}
+
+
+@media (min-width:1025px) and (max-width:1200px){
+    .btnTop{
+        width: 42px;
+        height: 42px;
+    }
+}
+
+
+
+
+@media (min-width:320px) and (max-width:1024px){
+    .btnTop{
+        width: 42px;
+        height: 42px;
+    }
+}

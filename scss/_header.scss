@@ -1,0 +1,453 @@
+@import "fonts-colors";
+
+.contHeader{
+    width: 100%;
+    padding: 10px 0px;
+    background: rgb(52, 52, 52);
+    position: relative;
+    z-index:0;
+    .contHeader_box1{
+        width: 85%;
+        height: 520px;
+        background: $color-primario-blue;
+        border-radius: 0px 0px 20px 0px ;
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+    .contHeader_box2{
+        width: 85%;
+        height: 450px;
+        background-image: url(../images/CARNE2.jpg);
+        background-size: 100% 100%;
+        border-radius: 0px 0px 0px 20px ;
+        position: absolute;
+        right: 0;
+        top: 0;
+        padding: 50px ;
+        .contHeader_box2_title{
+            width: 400px;
+            font-size: 50px;
+            font-weight: 700;
+            line-height: 60px;
+            margin-bottom: 20px;
+            color: $color-primario-yellow;
+            text-transform: uppercase;
+        }
+        
+        .contHeader_box2_button{
+            width: 150px;
+            height: 35px;
+            background: $color-primario-blue-trans;
+            border: 1px solid $color-primario-yellow;
+            font-weight: 700;
+            border-radius: 10px;
+            margin-right: 15px;
+            overflow: hidden;
+            position: relative;
+            .contHeader_box2_button_externo{
+                width: 100%;
+                height: 100%;
+                //background: $color-primario-blue;
+                background:$color-primario-yellow ;
+                transform: translate(-100%);
+                transition: 0.4s all ease;
+            }
+            .contHeader_box2_button_interno{
+                width: 150px;
+                height: 35px;
+                background: transparent;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: absolute;
+                top: 0;
+                //background: rgb(22, 198, 137);
+                .buttonText{
+                    color:$color-primario-yellow;
+                    transition: 0.4s all ease;
+
+                }
+
+            }  
+        }
+        .contHeader_box2_button:hover{
+            /*****************/
+            cursor: pointer;
+            .contHeader_box2_button_externo{
+                transform: translateX(0px);
+            }
+            .contHeader_box2_button_interno{
+                .buttonText{
+                    color: $color-primario-blue;
+                }
+            }
+        }
+
+        .contHeader_box2_btnResponsive{
+            width: 50px;
+            height: 50px;
+            background: rgb(13, 152, 87);
+            float: right;
+            margin-top: -200px;
+            display: none;
+            
+        }
+    }
+}
+
+
+
+
+
+
+
+
+/*
+RESPONSIVE DESING OFICIAL
+@media (min-width:1025px) and (max-width:1200px){}
+*/
+
+/*************************************************
+**************************************************/
+@media (min-width:641px) and (max-width:1024px){
+    .contHeader{
+        width: 100%;
+        padding: 10px 0px;
+        position: relative;
+        z-index:0;
+        .contHeader_box1{
+            width: 85%;
+            height: 520px;
+            background: $color-primario-blue;
+            border-radius: 0px 0px 20px 0px ;
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+        .contHeader_box2{
+            width: 85%;
+            height: 450px;
+            background-image: url(../images/CARNE2.jpg);
+            background-size: 100% 100%;
+            border-radius: 0px 0px 0px 20px ;
+            position: absolute;
+            right: 0;
+            top: 0;
+            padding: 50px ;
+            .contHeader_box2_title{
+                width: 400px;
+                font-size: 50px;
+                font-weight: 700;
+                line-height: 60px;
+                margin-bottom: 20px;
+                color: $color-primario-yellow;
+                text-transform: uppercase;
+            }
+            
+            .contHeader_box2_button{
+                width: 150px;
+                height: 35px;
+                background: $color-primario-blue-trans;
+                border: 1px solid $color-primario-yellow;
+                font-weight: 700;
+                border-radius: 10px;
+                margin-right: 15px;
+                overflow: hidden;
+                position: relative;
+                .contHeader_box2_button_externo{
+                    width: 100%;
+                    height: 100%;
+                    //background: $color-primario-blue;
+                    background:$color-primario-yellow ;
+                    transform: translate(-100%);
+                    transition: 0.4s all ease;
+                }
+                .contHeader_box2_button_interno{
+                    width: 150px;
+                    height: 35px;
+                    background: transparent;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    position: absolute;
+                    top: 0;
+                    //background: rgb(22, 198, 137);
+                    .buttonText{
+                        color:$color-primario-yellow;
+                        transition: 0.4s all ease;
+    
+                    }
+    
+                }  
+            }
+            .contHeader_box2_button:hover{
+                /*****************/
+                cursor: pointer;
+                .contHeader_box2_button_externo{
+                    transform: translateX(0px);
+                }
+                .contHeader_box2_button_interno{
+                    .buttonText{
+                        color: $color-primario-blue;
+                    }
+                }
+            }
+    
+            .contHeader_box2_btnResponsive{
+                width: 50px;
+                height: 50px;
+                background: transparent;
+                float: right;
+                margin-top: -200px;
+                display:block;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .iconHeader{
+                    color:$color-primario-yellow;
+                    font-size: 40px;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+    
+}
+
+
+
+
+
+/****************************************
+*************************************
+*****************************************/
+@media (min-width:481px)  and (max-width:640px){
+    .contHeader{
+        width: 100%;
+        padding: 10px 0px;
+        background: rgb(52, 52, 52);
+        position: relative;
+        z-index:0;
+        .contHeader_box1{
+            width: 90%;
+            height: 520px;
+            background: $color-primario-blue;
+            border-radius: 0px 0px 20px 0px ;
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+        .contHeader_box2{
+            width: 95%;
+            height: 450px;
+            background-image: url(../images/CARNE2.jpg);
+            background-size: 100% 100%;
+            border-radius: 0px 0px 0px 20px ;
+            position: absolute;
+            right: 0;
+            top: 0;
+            padding: 30px ;
+            .contHeader_box2_title{
+                width: 300px;
+                font-size: 45px;
+                font-weight: 700;
+                line-height: 60px;
+                margin-bottom: 20px;
+                color: $color-primario-yellow;
+                text-transform: uppercase;
+            }
+            
+            .contHeader_box2_button{
+                width: 150px;
+                height: 35px;
+                background: $color-primario-blue-trans;
+                border: 1px solid $color-primario-yellow;
+                font-weight: 700;
+                border-radius: 10px;
+                margin-right: 15px;
+                overflow: hidden;
+                position: relative;
+                .contHeader_box2_button_externo{
+                    width: 100%;
+                    height: 100%;
+                    //background: $color-primario-blue;
+                    background:$color-primario-yellow ;
+                    transform: translate(-100%);
+                    transition: 0.4s all ease;
+                }
+                .contHeader_box2_button_interno{
+                    width: 150px;
+                    height: 35px;
+                    background: transparent;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    position: absolute;
+                    top: 0;
+                    //background: rgb(22, 198, 137);
+                    .buttonText{
+                        color:$color-primario-yellow;
+                        transition: 0.4s all ease;
+    
+                    }
+    
+                }  
+            }
+            .contHeader_box2_button:hover{
+                /*****************/
+                cursor: pointer;
+                .contHeader_box2_button_externo{
+                    transform: translateX(0px);
+                }
+                .contHeader_box2_button_interno{
+                    .buttonText{
+                        color: $color-primario-blue;
+                    }
+                }
+            }
+    
+            .contHeader_box2_btnResponsive{
+                width: 50px;
+                height: 50px;
+                background:transparent;
+                float: right;
+                margin-top: -250px;
+                display:block;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .iconHeader{
+                    color:$color-primario-yellow;
+                    font-size: 40px;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+/********************************************************
+**************************************
+****************************************/
+@media (min-width:320px)  and (max-width:480px){
+    .contHeader{
+        width: 100%;
+        padding: 10px 0px;
+        background: rgb(52, 52, 52);
+        position: relative;
+        z-index:0;
+        .contHeader_box1{
+            width: 100%;
+            height: 520px;
+            background: $color-primario-blue;
+            border-radius: 0px 0px 20px 0px ;
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+        .contHeader_box2{
+            width: 100%;
+            height: 450px;
+            background-image: url(../images/CARNE2.jpg);
+            background-size: 100% 100%;
+            border-radius: 0px 0px 0px 20px ;
+            position: absolute;
+            right: 0;
+            top: 0;
+            padding: 30px ;
+            .contHeader_box2_title{
+                width: 200px;
+                font-size: 40px;
+                font-weight: 700;
+                line-height: 48px;
+                margin-bottom: 20px;
+                color: $color-primario-yellow;
+                text-transform: uppercase;
+            }
+            
+            .contHeader_box2_button{
+                width: 200px;
+                height: 35px;
+                background: $color-primario-blue-trans;
+                border: 1px solid $color-primario-yellow;
+                font-weight: 700;
+                border-radius: 10px;
+                margin: 3px;
+                overflow: hidden;
+                position: relative;
+                .contHeader_box2_button_externo{
+                    width: 100%;
+                    height: 100%;
+                    //background: $color-primario-blue;
+                    background:$color-primario-yellow ;
+                    transform: translate(-100%);
+                    transition: 0.4s all ease;
+                }
+                .contHeader_box2_button_interno{
+                    width: 150px;
+                    height: 35px;   
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    position: absolute;
+                    top: 0;
+                    left: 20px;
+                    //background: rgb(22, 198, 137);
+                    .buttonText{
+                        color:$color-primario-yellow;
+                        transition: 0.4s all ease;
+    
+                    }
+    
+                }  
+            }
+            .contHeader_box2_button:hover{
+                /*****************/
+                cursor: pointer;
+                .contHeader_box2_button_externo{
+                    transform: translateX(0px);
+                }
+                .contHeader_box2_button_interno{
+                    .buttonText{
+                        color: $color-primario-blue;
+                    }
+                }
+            }
+    
+            .contHeader_box2_btnResponsive{
+                width: 50px;
+                height: 50px;
+                background:transparent;
+                float: right;
+                margin-top: -300px;
+                display:block;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .iconHeader{
+                    color:$color-primario-yellow;
+                    font-size: 40px;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

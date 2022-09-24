@@ -1,0 +1,27 @@
+@import "fonts-colors";
+
+.cargarDowloader{
+    width: 100%;
+    height: 100vh;
+    background:$color-primario-blue;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    .Loading{
+        color:white;
+        font-weight: 300;
+    }
+}
+.loaderJS{
+    animation: preloader 4s forwards;
+}
+@keyframes preloader {
+    100%{
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+

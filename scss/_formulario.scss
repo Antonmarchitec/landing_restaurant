@@ -1,0 +1,322 @@
+@import "fonts-colors";
+
+.contFormulario{
+    width: 100%;
+    //padding: 10px 0px;
+    //background: yellow;
+    .contFormulario_form{
+        width: 100%;
+        padding: 10px 0px;
+        background:$color-primario-blue;
+
+
+        .contFormulario_Top{
+            margin-top: 50px;
+            width: 100%;
+            padding: 10px 20px;
+            //background: rgba(255, 0, 0, 0.267);
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            .contFormulario_Top_title{
+                color: white;
+            }
+            .contFormulario_Top_text{
+                color: $color-primario-yellow;
+                font-weight: 300;
+                font-size: 15px;
+                .text{
+                    color: white;
+                }
+            }
+        }
+
+        .contFormulario_bottom{
+            margin-top: 40px;
+            width: 100%;
+            padding: 80px 20px;
+            background:$color-primario-blue-trans;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: flex-start;
+
+            //bloque form left
+            .contFormulario_bottom_left{
+                width: 40%;
+                padding: 10px 5px;
+                position: relative;
+
+                //block title
+                .contFormulario_bottom_left_title{
+                    color: $color-primario-yellow;
+                    font-size: 35px;
+                    .titleText{
+                        color: white;
+                    }
+                }
+
+                //block parrafo
+                .contFormulario_bottom_left_paraphe{
+                    margin-top: 20px;
+                    color: white;
+                    font-weight: 300;
+                }
+
+                //block formulario
+                .contFormulario_bottom_left_formulario{
+                    margin-top: 20px;
+                    width: 100%;
+                    padding: 3px 0px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: flex-start;
+                    align-items: flex-start;
+                    .contFormulario_bottom_left_input{
+                        width: 100%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content:flex-start;
+                        align-items:flex-start;
+                        margin-bottom: 5px;
+                        border-radius: 5px;
+                        .label{
+                            color: $color-primario-yellow;
+
+                        }
+                        .input{
+                            margin-top: 5px;
+                            width: 100%;
+                            outline: none;
+                            padding: 6px;
+                            color: grey;
+                        }
+
+                        .contFormulario_bottom_left_textarea{
+                            margin-top: 5px;
+                            padding: 5px;
+                            max-width: 100%;
+                            min-width: 100%;
+                            max-height: 100px;
+                            min-height: 100px;
+                            outline: none;
+                            resize: none;
+                            color: grey;
+                        }
+                    }
+
+                    
+
+                    .contFormulario_bottom_left_butom{
+                        margin-top: 10px;
+                        width: 100%;
+                        padding: 8px 0px;
+                        background: $color-primario-blue;
+                        color: $color-primario-yellow;
+                        border: none;
+                        transition: 0.5s all;
+                        border-radius: 7px;
+                        border:1px solid $color-primario-yellow ;
+                    }
+                    .contFormulario_bottom_left_butom:hover{
+                        background: $color-primario-yellow;
+                        color: $color-primario-blue;
+                        cursor: pointer;
+                    }
+
+                }
+            }
+
+
+            //block image right
+            .contFormulario_bottom_right{
+                width: 40%;
+                height: 400px;
+                padding: 10px 0px;
+                margin-right: 40px;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+/*************************************************
+***********************************************
+************************************************/
+@media (min-width:641px) and (max-width:1200px){
+    .contFormulario{
+        width: 100%;
+        //padding: 10px 0px;
+        .contFormulario_form{
+            width: 100%;
+            padding: 10px 0px;
+            background:$color-primario-blue;
+            .contFormulario_Top{
+                margin-top: 50px;
+                width: 100%;
+                padding: 10px 20px;
+                //background: rgba(255, 0, 0, 0.267);
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                align-items: center;
+                .contFormulario_Top_title{
+                    color: white;
+                }
+                .contFormulario_Top_text{
+                    color: $color-primario-yellow;
+                    font-weight: 300;
+                    font-size: 15px;
+                    .text{
+                        color: white;
+                    }
+                }
+            }
+    
+            .contFormulario_bottom{
+                margin-top: 40px;
+                width: 100%;
+                padding: 80px 20px;
+                background:$color-primario-blue-trans;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                align-items: flex-start;
+                .contFormulario_bottom_left{
+                    width: 40%;
+                    padding: 10px 0px;
+                    //background: rgb(39, 39, 39);
+                    position: relative;
+                    .contFormulario_bottom_left_title{
+                        color: $color-primario-yellow;
+                        font-size: 35px;
+                        .titleText{
+                            color: white;
+                        }
+                    }
+                    .contFormulario_bottom_left_paraphe{
+                        margin-top: 20px;
+                        color: white;
+                        font-weight: 300;
+                    }
+    
+                }
+    
+    
+    
+                .contFormulario_bottom_right{
+                    width: auto;
+                    height: 340px;
+                    padding: 10px 0px;
+                    margin-right: 40px;
+                    //background: grey;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*************************************************
+***********************************************
+************************************************/
+@media (min-width:320px)  and (max-width:640px){
+    .contFormulario{
+        width: 100%;
+      
+        .contFormulario_form{
+            width: 100%;
+            padding: 10px 0px;
+            background:$color-primario-blue;
+            .contFormulario_Top{
+                margin-top: 50px;
+                width: 100%;
+                padding: 10px 20px;
+                //background: rgba(255, 0, 0, 0.267);
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                align-items: center;
+                .contFormulario_Top_title{
+                    color: white;
+                }
+                .contFormulario_Top_text{
+                    color: $color-primario-yellow;
+                    font-weight: 300;
+                    font-size: 15px;
+                    .text{
+                        color: white;
+                    }
+                }
+            }
+    
+            .contFormulario_bottom{
+                margin-top: 40px;
+                width: 100%;
+                padding: 80px 10px;
+                background:$color-primario-blue-trans;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                align-items: flex-start;
+                .contFormulario_bottom_left{
+                    width: 100%;
+                    padding: 10px 0px;
+                    position: relative;
+                    text-align: center;
+                    .contFormulario_bottom_left_title{
+                        color: $color-primario-yellow;
+                        font-size: 35px;
+                        .titleText{
+                            color: white;
+                        }
+                    }
+                    .contFormulario_bottom_left_paraphe{
+                        width: 80%;
+                        margin: auto;
+                        margin-top: 20px;
+                        color: white;
+                        font-weight: 300;
+                       
+                    }
+    
+                }
+    
+    
+    
+                .contFormulario_bottom_right{
+                    width: auto;
+                    height: 340px;
+                    padding: 10px 0px;
+                    margin: 40px auto;
+                    //background: grey;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,62 @@
+@import "fonts-colors";
+.contFooter{
+    width: 100%;
+    padding: 20px 0px;
+    background:$color-primario-blue;
+    .contFooter_blockTop{
+        width: 100%;
+        padding: 10px 0px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        .contFooterLogo{
+            width: 40px;
+            height: 40px;
+            background: $color-primario-logo;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .contFooterLogo_text{
+                color: white;
+                font-size: 25px;
+                text-transform: uppercase;
+            }
+        }
+        .contFooterNav{
+           width: 600px;
+           padding: 10px 0px;
+           display: flex;
+           flex-direction: row;
+           flex-wrap: wrap;
+           justify-content: space-around;
+           .contFooter_li{
+               list-style: none;
+               .footerLink{
+                   text-decoration: none;
+                   color: white;
+               }
+               .footerLink:hover{
+                   color:$color-primario-yellow;
+               }
+           }
+        }
+    }
+
+    .contFooter_blockBottom{
+        width: 100%;
+        padding: 10px 0px;
+        text-align: center;
+        .contFooter_blockBottom_protected{
+            color: white;
+            .text{
+                color:$color-primario-yellow;
+            }
+        }
+        
+    }
+    
+}
+
+

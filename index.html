@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!--SWITCH ALERT-->
+    <link rel="stylesheet" href="./css/switchAlert.css">
+
+    <!--FONT AWESOM-->
+    <script src="https://kit.fontawesome.com/b7fb745aab.js" crossorigin="anonymous"></script>
+
+    <!--SWIPER-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="./css/swiper.css">
+
+    <!--ANIMATE CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    
+    <title>Protecto restaurant</title>
+</head>
+<body>
+    
+    <!--PRELOADER DE LA PAGINA STAR-->
+    <div class="cargarDowloader" id="loader">
+        <img src="./images/loader.gif" width="100px" height="100px">
+        <h2 class="Loading">Loading...</h2>  
+    </div>
+
+
+    <div class="contGridBase">
+        
+        <div class="GridTablero" id="gridTablero">
+            <nav class="contTablero">
+                <div class="contTablero_btnResp">
+                  <i class="iconTablero fa-solid fa-bars-progress" id="btnResponsive"></i>
+                </div> 
+                
+                <div class="contTablero_cicle
+                wow animate__animated animate__fadeInLeft" 
+                style="animation-duration:1s; animation-delay:0.2s;"> 
+                    <h1 class="contTablero_cicle_title">Cocinas</h1>
+                </div>
+
+                <ul class="contTablero_ul
+                wow animate__animated animate__fadeInLeft" 
+                style="animation-duration:1s; animation-delay:0.3s;">
+                    <li class="contTablero_ul_li"><a href="index.html" class="liEnlace"><i class="iconMenu fa-solid fa-person-breastfeeding"></i>Home<i class="iconArrow fa-solid fa-arrow-right"></i></a></li>
+                    <li class="contTablero_ul_li"><a href="#ganchoAcerca" class="liEnlace"><i class="iconMenu fa-solid fa-menorah"></i>Acerca de<i class="iconArrow fa-solid fa-arrow-right"></i></a></li>
+                    <li class="contTablero_ul_li"><a href="#ganchoOfertas" class="liEnlace"><i class="iconMenu fa-solid fa-plate-wheat"></i>Platos especiales<i class="iconArrow fa-solid fa-arrow-right"></i></a></li>
+                    <li class="contTablero_ul_li"><a href="#ganchoTestimonios" class="liEnlace"><i class="iconMenu fa-solid fa-chalkboard-user"></i>Testimonios<i class="iconArrow fa-solid fa-arrow-right"></i></a></li>
+                    <li class="contTablero_ul_li"><a href="#ganchoFormulario" class="liEnlace"><i class="iconMenu fa-solid fa-file-signature"></i>Contacto<i class="iconArrow fa-solid fa-arrow-right"></i></a></li>
+                </ul>
+
+                <div class="contTablero_pie
+                wow animate__animated animate__fadeInLeft" 
+                style="animation-duration:1s; animation-delay:0.4s;">
+                    <h2 class="contTablero_pie_title">Información</h2>
+                    <h3 class="contTablero_pie_number">521+ 2800154</h3>
+                    <h4 class="contTablero_pie_text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem, vel!</h4>
+                </div>
+            </nav> 
+        </div>
+
+        <div class="GridHeader" id="ganchoHeader">
+          <section class="contHeader">
+              <div class="contHeader_box1">
+              </div>
+
+              <div class="contHeader_box2">
+                <h1 class="contHeader_box2_title
+                wow animate__animated animate__fadeInRight" 
+                style="animation-duration:1s; animation-delay:0.6s;">No necesita un tenedor de plata para comer muy bien</h1>
+                <button class="contHeader_box2_button">
+                  <div class="contHeader_box2_button_externo">
+                    
+                  </div>
+                  <div class="contHeader_box2_button_interno">
+                    <span class="buttonText">Menu</span>
+                  </div>
+                </button>
+
+                <button class="contHeader_box2_button">
+                  <div class="contHeader_box2_button_externo">
+                    
+                  </div>
+                  <div class="contHeader_box2_button_interno">
+                    <span class="buttonText">Especiales</span>
+                  </div>
+                </button>
+
+                <div class="contHeader_box2_btnResponsive">
+                  <i class="iconHeader fa-solid fa-bars-progress" id="btnResponsiveHeader"></i>
+                </div>
+              </div>
+                
+          </section>
+        </div>
+
+        <div class="GridSectionOfertas" id="ganchoOfertas">
+          <section class="contSectionOfertas">
+              <h3 class="contSectionOfertas_titleTop">Ofertas</h3>
+              <h2 class="contSectionOfertas_titleBotton">Ofertas especiales</h2>
+              
+              <!-------GRILLA OFERTAS------------->
+              <div class="contSectionOfertas_grid">
+
+                  <!---------Cuadro 1 imagen--------------------->
+                  <div class="imageGridBox1
+                  wow animate__animated animate__fadeInUp" 
+                  style="animation-duration:0.5s; animation-delay:0.6s;">
+                    <div class="contImageBox1" id="contImageBox1">
+                      <!--<img src="./images/img1.jpg" alt="carne" width="100%" height="100%">-->
+                    </div>
+                    <template id="templateImageBox1">
+                       <img src="" alt="" width="100%" height="100%" id="imgBox1">
+                    </template>
+                  </div>
+
+                  <!---------Cuadro 2 descripcion--------------------->
+                  <div class="descriptionGridBox1">
+                      <div class="contDescription" id="contDescription1">
+                        <!--<h3 class="contDescription_title">Titulo</h3>
+                        <p class="contDescription_parrafo">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit consectetur doloremque amet sed dolorum praesentium voluptate ex pariatur repellat possimus veniam
+                        </p>
+                        <h3 class="contDescription_precio">50 <span>Sus</span></h3>-->
+                      </div>
+
+                      <template id="templateContDescrition1">
+                        <h3 class="contDescription_title" id="contDescription_title">Titulo</h3>
+                        <p class="contDescription_parrafo" id="contDescription_parrafo">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit consectetur doloremque amet sed dolorum praesentium voluptate ex pariatur repellat possimus veniam, ut repudiandae consequuntur, temporibus suscipit obcaecati aperiam facilis quibusdam.
+                        </p>
+                        <h3 class="contDescription_precio" id="contDescription_precio">50</h3>
+                      </template>
+                  </div>
+
+                  <!---------Cuadro 3 imagen--------------------->
+                  <div class="imageGridBox2
+                  wow animate__animated animate__fadeInUp" 
+                  style="animation-duration:0.5s; animation-delay:0.8s;">
+                    <div class="contImageBox2" id="contImageBox2">
+                      <!--<img src="./images/img1.jpg" alt="carne" width="100%" height="100%">-->
+                    </div>
+                    <template id="templateImageBox2">
+                       <img src="" alt="" width="100%" height="100%" id="imgBox2">
+                    </template>
+                  </div>
+
+
+                  <!---------Cuadro 4 description--------------------->
+                  <div class="descriptionGridBox2">
+                    <div class="contDescription" id="contDescription2">
+                      <!--
+                      <h3 class="contDescription_title" id="contDescription_title">Titulo</h3>
+                      <p class="contDescription_parrafo" id="contDescription_parrafo">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit consectetur doloremque amet sed dolorum praesentium voluptate ex pariatur repellat possimus veniam, ut repudiandae consequuntur, temporibus suscipit obcaecati aperiam facilis quibusdam.
+                      </p>
+                      <h3 class="contDescription_precio" id="contDescription_precio">50</h3>
+                    -->
+                    </div>
+
+                    <template id="templateContDescrition2">
+                      <h3 class="contDescription_title" id="contDescription_title2">Titulo</h3>
+                      <p class="contDescription_parrafo" id="contDescription_parrafo2">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit consectetur doloremque amet sed dolorum praesentium voluptate ex pariatur repellat possimus veniam, ut repudiandae consequuntur, temporibus suscipit obcaecati aperiam facilis quibusdam.
+                      </p>
+                      <h3 class="contDescription_precio" id="contDescription_precio2">50</h3>
+                    </template>
+                  </div>
+
+                  <!---------Cuadro 5 description--------------------->
+                  <div class="descriptionGridBox3">
+                    <div class="contDescription" id="contDescription3">
+                      <!--
+                      <h3 class="contDescription_title" id="contDescription_title">Titulo</h3>
+                      <p class="contDescription_parrafo" id="contDescription_parrafo">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit consectetur doloremque amet sed dolorum praesentium voluptate ex pariatur repellat possimus veniam, ut repudiandae consequuntur, temporibus suscipit obcaecati aperiam facilis quibusdam.
+                      </p>
+                      <h3 class="contDescription_precio" id="contDescription_precio">50</h3>
+                    -->
+                    </div>
+
+                    <template id="templateContDescrition3">
+                      <h3 class="contDescription_title" id="contDescription_title3">Titulo</h3>
+                      <p class="contDescription_parrafo" id="contDescription_parrafo3">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit consectetur doloremque amet sed dolorum praesentium voluptate ex pariatur repellat possimus veniam, ut repudiandae consequuntur, temporibus suscipit obcaecati aperiam facilis quibusdam.
+                      </p>
+                      <h3 class="contDescription_precio" id="contDescription_precio3">50</h3>
+                    </template>
+                  </div>
+
+                  <!---------Cuadro 6--------------------->
+                  <div class="imageGridBox3
+                  wow animate__animated animate__fadeInUp" 
+                  style="animation-duration:0.5s; animation-delay:0.6s;">
+                    <div class="contImageBox3" id="contImageBox3">
+                      <!--<img src="./images/img1.jpg" alt="carne" width="100%" height="100%">-->
+                    </div>
+                    <template id="templateImageBox3">
+                       <img src="" alt="" width="100%" height="100%" id="imgBox3">
+                    </template>
+                  </div>
+
+                  <!---------Cuadro 7--------------------->
+                  <div class="descriptionGridBox4">
+                    <div class="contDescription" id="contDescription4">
+                      <!--
+                      <h3 class="contDescription_title" id="contDescription_title">Titulo</h3>
+                      <p class="contDescription_parrafo" id="contDescription_parrafo">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit consectetur doloremque amet sed dolorum praesentium voluptate ex pariatur repellat possimus veniam, ut repudiandae consequuntur, temporibus suscipit obcaecati aperiam facilis quibusdam.
+                      </p>
+                      <h3 class="contDescription_precio" id="contDescription_precio">50</h3>
+                    -->
+                    </div>
+
+                    <template id="templateContDescrition4">
+                      <h3 class="contDescription_title" id="contDescription_title4">Titulo</h3>
+                      <p class="contDescription_parrafo" id="contDescription_parrafo4">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit consectetur doloremque amet sed dolorum praesentium voluptate ex pariatur repellat possimus veniam, ut repudiandae consequuntur, temporibus suscipit obcaecati aperiam facilis quibusdam.
+                      </p>
+                      <h3 class="contDescription_precio" id="contDescription_precio4">50</h3>
+                    </template>
+                  </div>
+
+                  <!---------Cuadro 8--------------------->
+                  <div class="imageGridBox4
+                  wow animate__animated animate__fadeInUp" 
+                  style="animation-duration:0.5s; animation-delay:1s;">
+                    <div class="contImageBox4" id="contImageBox4">
+                      <!--<img src="./images/img1.jpg" alt="carne" width="100%" height="100%">-->
+                    </div>
+                    <template id="templateImageBox4">
+                       <img src="" alt="" width="100%" height="100%" id="imgBox4">
+                    </template>
+                  </div>
+
+              </div>
+          </section>
+        </div>
+
+        <div class="GridSectionSobreNosotros" id="ganchoAcerca">
+          <section class="contSectionSobreNos">
+              <div class="contSectionSobreNos_boxLeft
+              wow animate__animated animate__fadeInLeft" 
+                  style="animation-duration:0.5s; animation-delay:0.6s;">
+                  <h3 class="contSectionSobreNos_boxLeft_titleTop">Sobre nosotros</h3>
+
+                  <h2 class="contSectionSobreNos_boxLeft_titleBotton">Sobre cocina</h2>
+
+                  <p class="contSectionSobreNos_boxLeft_parrafo">
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt, deleniti sint. Impedit ea nemo magni debitis, reiciendis tempora provident, deleniti dolores, perspiciatis deserunt maiores autem minus quaerat perferendis eveniet nihil.
+                  </p>
+
+                  <a href="#">
+                    <button class="contSectionSobreNos_boxLeft_button">
+                      <div class="contSectionSobreNos_boxLeft_button_sup">
+                      
+                      </div>
+                      <div class="contSectionSobreNos_boxLeft_button_inf">
+                        <span class="buttonTextSobre">Mas informacion</span>
+                      </div>
+                    </button>
+                  </a>
+              </div>
+
+              <div class="contSectionSobreNos_boxRight">
+                 <h1 class="contSectionSobreNos_boxRight_title">Nuestro menu</h1>
+                 <div class="contSectionSobreNos_boxRight_interno">
+                     <!-- Swiper -->
+                     <!-- Swiper -->
+                    <div class="swiper">
+                      <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                          <div class="swiper_contImage">
+                            <img src="./images/1.jpg" alt="carne" width="100%" height="100%">
+                          </div>
+                          <h2 class="swiper_title">Nombre plato</h2>
+                        </div>
+                        
+                        <div class="swiper-slide">
+                          <div class="swiper_contImage">
+                            <img src="./images/2.jpg" alt="carne" width="100%" height="100%">
+                          </div>
+                          <h2 class="swiper_title">Nombre plato</h2>
+                        </div>
+
+                        <div class="swiper-slide">
+                          <div class="swiper_contImage">
+                            <img src="./images/3.jpg" alt="carne" width="100%" height="100%">
+                          </div>
+                          <h2 class="swiper_title">Nombre plato</h2>
+                        </div>
+
+                        <div class="swiper-slide">
+                          <div class="swiper_contImage">
+                            <img src="./images/CARNE1.jpg" alt="carne" width="100%" height="100%">
+                          </div>
+                          <h2 class="swiper_title">Nombre plato</h2>
+                        </div>
+
+                        <div class="swiper-slide">
+                          <div class="swiper_contImage">
+                            <img src="./images/CARNE2.jpg" alt="carne" width="100%" height="100%">
+                          </div>
+                          <h2 class="swiper_title">Nombre plato</h2>
+                        </div>
+                      </div>
+                      <!-- Add Pagination -->
+                      <div class="swiper-pagination"></div>
+                    </div>
+                 </div>
+              </div>
+          </section>
+        </div>
+
+        <div class="GridMapa">
+          <section class="contMapa">
+            <h1 class="contMapa_title">Nuestra sucursal</h1>
+            <div class="contMapa_divMapa" id="map">
+              
+            </div>
+          </section>
+        </div>
+
+        <div class="GridSectionClientes" id="ganchoTestimonios">
+          <section class="contSectionClientes">
+             <h3 class="contSectionClientes_titleTop">Testimonios</h3>
+             <h4 class="contSectionClientes_titleBotton">Clientes felices</h4>
+
+             <div class="contSectionClientes_contentSlader
+             wow animate__animated animate__fadeInUp" 
+             style="animation-duration:0.5s; animation-delay:0.6s;">
+               <div class="contentSladerBase" id="contentSladerBase">
+                 <!-----------BOX 1 SLADER----------------------->
+                 <div class="contentSladerBase_Box" id="box">
+                   <div class="contentSladerBase_Box_image">
+                      <img src="./images/CARTA1.jpg" alt="img1" width="100%" height="100%">
+                   </div>
+
+                   <p class="contentSladerBase_Box_parrafo">
+                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste necessitatibus optio magnam sit eum eveniet voluptatem vel expedita laudantium veniam nesciunt odit eligendi nesciunt impedit dolores dicta dolor in omnis.<br>CUADRO1
+                   </p>
+
+                   <hr class="line" style="width: 50%;height: 2px;border: none;background:rgb(248, 248, 71);margin: auto;">
+
+                   <h3 class="contentSladerBase_Box_name">Mario Suasisten - Testimonials</h3>
+                 </div>
+
+                 <!------------BOX 2 SLADER---------------------->
+                 <div class="contentSladerBase_Box" id="box">
+                   <div class="contentSladerBase_Box_image">
+                      <img src="./images/CARTA2.jpg" alt="img1" width="100%" height="100%">
+                   </div>
+
+                   <p class="contentSladerBase_Box_parrafo">
+                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste necessitatibus optio magnam sit eum eveniet voluptatem vel expedita laudantium veniam nesciunt odit eligendi nesciunt impedit dolores dicta dolor in omnis.<br>CUADRO2
+                   </p>
+
+                   <hr class="line" style="width: 50%;height: 2px;border: none;background: rgb(248, 248, 71);margin: auto;">
+
+                   <h3 class="contentSladerBase_Box_name">Melan Coova - testimonials</h3>
+                 </div>
+
+                 <!-------------BOX 3 SLADER--------------------->
+                 <div class="contentSladerBase_Box" id="box">
+                  <div class="contentSladerBase_Box_image">
+                    <img src="./images/CARTA3.jpg " alt="img1" width="100%" height="100%">
+                  </div>
+
+                  <p class="contentSladerBase_Box_parrafo">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste necessitatibus optio magnam sit eum eveniet voluptatem vel expedita laudantium veniam nesciunt odit eligendi nesciunt impedit dolores dicta dolor in omnis.<br>CUADRO3
+                  </p>
+
+                  <hr class="line" style="width: 50%;height: 2px;border: none;background: rgb(248, 248, 71);margin: auto;">
+
+                  <h3 class="contentSladerBase_Box_name">Richard Burguese - Testimonials</h3>
+                 </div>
+               </div>
+
+               <div class="arrowNext" >
+                 <i class="iconArrow fa-solid fa-arrow-right" id="arrowNext"></i>
+               </div>
+               <div class="arrowPrev" >
+                 <i class="iconArrow fa-solid fa-arrow-left" id="arrowPrev"></i>
+               </div>
+             </div>
+          </section>
+        </div>
+
+        <div class="GridFormulario" id="ganchoFormulario">
+          <div class="contFormulario">
+            <div class="contFormulario_form">
+
+              <div class="contFormulario_Top">
+                <h2 class="contFormulario_Top_title">Webprofits</h2>
+                <h3 class="contFormulario_Top_text">Nedd to talk <span class="text">1300827149</span></h3>
+              </div>
+
+              <div class="contFormulario_bottom">
+                <div class="contFormulario_bottom_left
+                wow animate__animated animate__fadeInUp" 
+                  style="animation-duration:0.5s; animation-delay:0.2s;">
+                  <h2 class="contFormulario_bottom_left_title"> FREE competitor<>
+                  <span class="titleText">SEO analisys</span></h2>
+
+                  <p class="contFormulario_bottom_left_paraphe">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum et sed molestias non. Dolorem autem modi provident rerum possimus error laboriosam aliquam! Voluptatem quo vitae odio dolor in animi dicta.
+                  </p>
+                  
+                  <form action="enviar.php" method="Post" onsubmit="return validar();" 
+                  class="contFormulario_bottom_left_formulario" >
+                    <!--block input-->
+                    <div class="contFormulario_bottom_left_input">
+                      <label for="name" class="label"> Nombre completo:</label>
+                      <input type="text" name="nombre" placeholder=" Coloque su Nombre" class="input" id="name">
+                    </div>
+
+                    <!--block input-->
+                    <div class="contFormulario_bottom_left_input">
+                      <label for="correo" class="label"> Correo: </label>
+                      <input type="text" name="correo" placeholder="example@gmail.com" class="input"
+                      id="correo">
+                    </div>
+
+                    <!--block textTarea-->
+                    <div class="contFormulario_bottom_left_input">
+                      <label for="comentario" class="label"> ¿Recomendarías nuestro restaurant y porque? </label>
+                      <textarea name="comentario" class="contFormulario_bottom_left_textarea" placeholder=" Deja tu comentario"> </textarea>
+                    </div>
+                    
+
+                    <!--block buttom-->
+                    <button type="submit" class="contFormulario_bottom_left_butom" id="btnForm"
+                    onclick="validar()"> NEXT </button>
+                  </form>
+                  
+                </div>
+
+                <div class="contFormulario_bottom_right
+                wow animate__animated animate__fadeInRight" 
+                  style="animation-duration:0.5s; animation-delay:0.6s;">
+                  <img src="./images/dibujo restauranr.png" width="100%" height="100%">
+                </div>
+              </div>
+              
+            </div>
+          </div>	
+        </div>
+
+        <div class="GridFooter">
+          <footer class="contFooter">
+            <!--block top-->
+            <div class="contFooter_blockTop">
+              <div class="contFooterLogo">
+                <h2 class="contFooterLogo_text">Cocinas</h2>
+              </div>
+  
+              <nav class="contFooterNav">
+                <li class="contFooter_li"><a href="/" class="footerLink">Acerca de</a></li>
+                <li class="contFooter_li"><a href="/" class="footerLink">Menu</a></li>
+                <li class="contFooter_li"><a href="/" class="footerLink">Platos especiales</a></li>
+                <li class="contFooter_li"><a href="/" class="footerLink">Residencia</a></li>
+              </nav>
+            </div>
+
+            <!--block bottom-->
+            <div class="contFooter_blockBottom">
+              <p class="contFooter_blockBottom_protected"> Protected copyright 2022 || <br> 
+                <span class="text"> Antonio Ponce || digitizingCode </span></p>
+            </div>
+          </footer>
+        </div>
+    </div>
+
+    <div class="btnTop" id="btnTop">
+        <a href="#ganchoHeader">
+          <img src="./images/arrow.png" alt="arrow" width="100%" height="100%" id="subir">  
+        </a>
+    </div>
+    
+
+
+
+    
+    <!-- Personalizados -->
+    <script src="./js/especiales.js"></script>
+    <script src="./js/sladerTestimonios.js"></script>
+    <script src="./js/loader.js"></script>
+    <script src="./js/btnTTop.js"></script>
+    <script src="./js/btnResponsive.js"></script>
+
+
+    <!--  Swiper CDN -->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script type="module">
+      //import Swiper from 'swiper/swiper-bundle.esm.js';
+      //import 'swiper/swiper-bundle.css';
+      var swiper = new Swiper('.swiper', {
+        effect: 'coverflow',
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: 'auto',
+        coverflowEffect: {
+          rotate: 50,
+          stretch: 0,
+          depth: 500,
+          modifier: 1,
+          slideShadows: true,
+        },
+        pagination: {
+          el: '.swiper-pagination',
+        },
+      });
+    </script>
+
+    <!--SWITCH ALERT 2-->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./js/validacion_form.js"></script>
+
+    <!--WOW JS-->
+    <script src="./js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+
+
+    <!--
+      Link api maps
+      https://developers.google.com/maps/documentation/javascript-->
+    <!--google maps (Dalto) -->
+    <script src="./js/map.js"></script>
+    <!--<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDaeWicvigtP9xPv919E-RNoxfvC-Hqik&callback=iniciarMap"></script>-->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDF52XM11ftI_UQLtmyOwgMwlrzs82H6m4&callback=iniciarMap"></script>
+    
+    
+</body>
+</html>

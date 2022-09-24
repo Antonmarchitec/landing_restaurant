@@ -1,0 +1,191 @@
+@import "fonts-colors";
+
+.contSectionClientes{
+    width: 100%;
+    padding-top: 80px;
+    background: rgb(252, 251, 251);
+    z-index: -1;
+    .contSectionClientes_titleTop{
+        text-align: center;
+        color: $color-primario-blue-trans;
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 29px;
+    }
+    .contSectionClientes_titleBotton{
+        text-align: center;
+        color: $color-primario-blue;
+        font-weight: 700;
+        font-size: 35px;
+
+    }
+
+    .contSectionClientes_contentSlader{
+        margin-top: 35px;
+        width: 100%;
+        height: 400px;
+        background: rgb(235, 147, 147);
+        position: relative;
+        overflow: hidden;
+        .contentSladerBase{
+            width: 300%;
+            height: 400px;
+            background: violet;
+            display: flex;
+            flex-direction: row;
+            .contentSladerBase_Box{
+                width: 100%;
+                height: 400px;
+                background:$color-primario-blue;
+                .contentSladerBase_Box_image{
+                    width: 110px;
+                    height: 110px;
+                    background: rgb(218, 214, 214);
+                    margin: 20px auto;
+                    margin-top: 50px;
+                    border-radius: 50%;
+                    border: 2px solid rgb(255, 255, 255);
+                    overflow: hidden;
+                }
+                .contentSladerBase_Box_parrafo{
+                    width: 80%;
+                    //background: rgb(63, 62, 62);
+                    color: white;
+                    margin: 20px auto; 
+                    text-align: center;
+                }
+                .contentSladerBase_Box_name{
+                    margin-top: 20px;
+                    text-align: center;
+                    color: white;
+                    font-weight: 300;
+                }
+            }
+        }
+        .arrowNext{
+            position: absolute;
+            bottom:10px;
+            left: 60px;
+            cursor: pointer;
+            .iconArrow{
+                color:$color-primario-yellow;
+                font-size: 30px;
+            }
+        }
+        .arrowPrev{
+            position: absolute;
+            bottom: 10px;
+            left: 20px;
+            cursor: pointer;
+            .iconArrow{
+                color:$color-primario-yellow;
+                font-size: 30px;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*****************************************
+******************************
+*****************************************/
+@media (min-width:320px)  and (max-width:480px){
+    .contSectionClientes{
+        width: 100%;
+        padding-top: 80px;
+        background: rgb(252, 251, 251);
+        z-index: -1;
+        .contSectionClientes_titleTop{
+            text-align: center;
+            color: $color-primario-blue-trans;
+            font-weight: 700;
+            font-size: 35px;
+            line-height: 29px;
+        }
+        .contSectionClientes_titleBotton{
+            text-align: center;
+            color: $color-primario-blue;
+            font-weight: 700;
+            font-size: 35px;
+    
+        }
+    
+        .contSectionClientes_contentSlader{
+            margin-top: 35px;
+            width: 100%;
+            height: 400px;
+            background: rgb(235, 147, 147);
+            position: relative;
+            overflow: hidden;
+            .contentSladerBase{
+                width: 300%;
+                height: 400px;
+                background: violet;
+                display: flex;
+                flex-direction: row;
+                .contentSladerBase_Box{
+                    width: 100%;
+                    height: 400px;
+                    background:$color-primario-blue;
+                    .contentSladerBase_Box_image{
+                        width: 110px;
+                        height: 110px;
+                        background: rgb(218, 214, 214);
+                        margin: 20px auto;
+                        margin-top: 50px;
+                        border-radius: 50%;
+                        border: 2px solid rgb(255, 255, 255);
+                        overflow: hidden;
+                    }
+                    .contentSladerBase_Box_parrafo{
+                        width: 80%;
+                        //background: rgb(63, 62, 62);
+                        color: white;
+                        margin: 20px auto; 
+                        text-align: center;
+                    }
+                    .contentSladerBase_Box_name{
+                        margin-top: 20px;
+                        text-align: center;
+                        color: white;
+                        font-weight: 300;
+                    }
+                }
+            }
+            .arrowNext{
+                position: absolute;
+                bottom:10px;
+                left:auto;
+                right: 20px;
+                cursor: pointer;
+                .iconArrow{
+                    color:$color-primario-yellow;
+                    font-size: 30px;
+                }
+            }
+            .arrowPrev{
+                position: absolute;
+                bottom: 10px;
+                left: 20px;
+                cursor: pointer;
+                .iconArrow{
+                    color:$color-primario-yellow;
+                    font-size: 30px;
+                }
+            }
+        }
+    }
+    
+}
