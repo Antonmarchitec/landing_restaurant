@@ -38,7 +38,7 @@ https://antonmarchitec.github.io/landing_restaurant/
 
 ## Imagen del proyecto.
 
-
+![landing_restaurant](https://user-images.githubusercontent.com/70084380/192084792-314c1f6e-238e-4b9e-b3a8-591f92bc29bd.jpg)
 
 
 
