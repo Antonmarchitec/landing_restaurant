@@ -10,14 +10,16 @@
 - wow.js.- Se aplica animación a los elementos, de modo se va aplicando el evento scroll.
 - animate.css.- integra las animaciones a los elementos
 - hamburguers.css.- integra el botón hamburguesa en el menú cuando está en modo tablet y móvil.
+- Swiper.js .- Swiper es el control deslizante táctil móvil gratuito más moderno con transiciones   aceleradas por hardware y un comportamiento nativo increíble. Está destinado a ser utilizado en sitios web móviles, aplicaciones web móviles y aplicaciones móviles nativas/híbridas.
 
 ## Tipo de proyecto:
 - Página informativa.
 - página de aterrizaje
 - landing page.
+- Proyecto restaurant
 
 ## Descripción del proyecto:
-Landing page estructurada con una base construida con CSS GRID, header (Encabezado), 4 secciones y el footer (pie). El proyecto se adapta a dispositivos de escritorio (Desktop), tablet y móviles.  
+Landing page animada desarrollada con HTML, CSS Y Javacript, esta estructurada con una base formada con CSS GRID, consta de un menu vertical fijado flotante, header (encabezado), 4 secciones y el footer (pie de pagina), botones personalizados, formulario de contacto con validacion y boton de subida.   
 
 ## Diseño responsivo:
 - Desktop: 1440px   
@@ -25,13 +27,13 @@ Landing page estructurada con una base construida con CSS GRID, header (Encabeza
 - Móvil: 320px
 
 ## Codigo fuente
-https://github.com/Antonmarchitec/sitio-reposteria.git
+https://github.com/Antonmarchitec/landing_restaurant.git
 
 ## Vista previa:
-https://antonmarchitec.github.io/sitio-reposteria/
+https://antonmarchitec.github.io/landing_restaurant/
 
 ## Frase del día:
-"Las ideas tienen que ir tomando forma. Se van haciendo realidad al trabajar en ellas. Solo hay que ponerse en marcha".
+"El espíritu emprendedor prospera cuando es fácil probar muchísimas ideas diferentes. Facebook no fue el primer proyecto que desarrollé".
 -- Mark Zuckerberg --
 
 ## Imagen del proyecto.
