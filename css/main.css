@@ -828,15 +828,14 @@ RESPONSIVE DESING OFICIAL
 }
 .contSectionOfertas .contSectionOfertas_grid .imageGridBox1 .contImageBox1 {
   width: 100%;
-  height: 100%;
-  background: rgb(101, 5, 5);
+  height: 250px;
 }
 .contSectionOfertas .contSectionOfertas_grid .descriptionGridBox1 {
   grid-area: descriptionGridBox1;
 }
 .contSectionOfertas .contSectionOfertas_grid .descriptionGridBox1 .contDescription {
   width: 100%;
-  height: 200px;
+  height: 250px;
   padding: 10px;
   background: rgb(255, 255, 255);
   text-align: center;
@@ -864,15 +863,14 @@ RESPONSIVE DESING OFICIAL
 }
 .contSectionOfertas .contSectionOfertas_grid .imageGridBox2 .contImageBox2 {
   width: 100%;
-  height: 100%;
-  background: rgb(101, 5, 5);
+  height: 250px;
 }
 .contSectionOfertas .contSectionOfertas_grid .descriptionGridBox2 {
   grid-area: descriptionGridBox2;
 }
 .contSectionOfertas .contSectionOfertas_grid .descriptionGridBox2 .contDescription {
   width: 100%;
-  height: 200px;
+  height: 250px;
   padding: 10px;
   background: rgb(255, 255, 255);
   text-align: center;
@@ -900,7 +898,7 @@ RESPONSIVE DESING OFICIAL
 }
 .contSectionOfertas .contSectionOfertas_grid .descriptionGridBox3 .contDescription {
   width: 100%;
-  height: 200px;
+  height: 250px;
   padding: 10px;
   background: rgb(255, 255, 255);
   text-align: center;
@@ -928,15 +926,14 @@ RESPONSIVE DESING OFICIAL
 }
 .contSectionOfertas .contSectionOfertas_grid .imageGridBox3 .contImageBox3 {
   width: 100%;
-  height: 100%;
-  background: rgb(101, 5, 5);
+  height: 250px;
 }
 .contSectionOfertas .contSectionOfertas_grid .descriptionGridBox4 {
   grid-area: descriptionGridBox4;
 }
 .contSectionOfertas .contSectionOfertas_grid .descriptionGridBox4 .contDescription {
   width: 100%;
-  height: 200px;
+  height: 250px;
   padding: 10px;
   background: rgb(255, 255, 255);
   text-align: center;
@@ -964,8 +961,7 @@ RESPONSIVE DESING OFICIAL
 }
 .contSectionOfertas .contSectionOfertas_grid .imageGridBox4 .contImageBox4 {
   width: 100%;
-  height: 100%;
-  background: rgb(101, 5, 5);
+  height: 250px;
 }
 
 /*
@@ -1002,7 +998,7 @@ RESPONSIVE DESING OFICIAL
   }
   .contSectionOfertas .contSectionOfertas_grid .imageGridBox1 .contImageBox1 {
     width: 100%;
-    height: 100%;
+    height: 230px;
     background: rgb(101, 5, 5);
   }
   .contSectionOfertas .contSectionOfertas_grid .descriptionGridBox1 {
@@ -1038,7 +1034,7 @@ RESPONSIVE DESING OFICIAL
   }
   .contSectionOfertas .contSectionOfertas_grid .imageGridBox2 .contImageBox2 {
     width: 100%;
-    height: 100%;
+    height: 230px;
     background: rgb(101, 5, 5);
   }
   .contSectionOfertas .contSectionOfertas_grid .descriptionGridBox2 {
@@ -1102,7 +1098,7 @@ RESPONSIVE DESING OFICIAL
   }
   .contSectionOfertas .contSectionOfertas_grid .imageGridBox3 .contImageBox3 {
     width: 100%;
-    height: 100%;
+    height: 230px;
     background: rgb(101, 5, 5);
   }
   .contSectionOfertas .contSectionOfertas_grid .descriptionGridBox4 {
@@ -1138,7 +1134,7 @@ RESPONSIVE DESING OFICIAL
   }
   .contSectionOfertas .contSectionOfertas_grid .imageGridBox4 .contImageBox4 {
     width: 100%;
-    height: 100%;
+    height: 230px;
     background: rgb(101, 5, 5);
   }
 }
@@ -1166,7 +1162,9 @@ RESPONSIVE DESING OFICIAL
   .contSectionOfertas .contSectionOfertas_grid {
     margin-top: 50px;
     width: 100%;
+    background: rgb(34, 159, 163);
     display: grid;
+    grid-gap: 5px;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: auto;
     grid-template-areas: "imageGridBox1        imageGridBox1           descriptionGridBox1        descriptionGridBox1" "descriptionGridBox2  descriptionGridBox2     imageGridBox2              imageGridBox2 " "imageGridBox3        imageGridBox3           descriptionGridBox3        descriptionGridBox3" "descriptionGridBox4  descriptionGridBox4     imageGridBox4              imageGridBox4 ";
@@ -1176,7 +1174,7 @@ RESPONSIVE DESING OFICIAL
   }
   .contSectionOfertas .contSectionOfertas_grid .imageGridBox1 .contImageBox1 {
     width: 100%;
-    height: 100%;
+    height: 250px;
     background: rgb(101, 5, 5);
   }
   .contSectionOfertas .contSectionOfertas_grid .descriptionGridBox1 {
@@ -1184,7 +1182,7 @@ RESPONSIVE DESING OFICIAL
   }
   .contSectionOfertas .contSectionOfertas_grid .descriptionGridBox1 .contDescription {
     width: 100%;
-    height: 230px;
+    height: 250px;
     padding: 10px;
     background: rgb(255, 255, 255);
     text-align: center;
@@ -1212,7 +1210,7 @@ RESPONSIVE DESING OFICIAL
   }
   .contSectionOfertas .contSectionOfertas_grid .imageGridBox2 .contImageBox2 {
     width: 100%;
-    height: 100%;
+    height: 250px;
     background: rgb(101, 5, 5);
   }
   .contSectionOfertas .contSectionOfertas_grid .descriptionGridBox2 {
@@ -1220,7 +1218,7 @@ RESPONSIVE DESING OFICIAL
   }
   .contSectionOfertas .contSectionOfertas_grid .descriptionGridBox2 .contDescription {
     width: 100%;
-    height: 230px;
+    height: 250px;
     padding: 10px;
     background: rgb(255, 255, 255);
     text-align: center;
@@ -1248,7 +1246,7 @@ RESPONSIVE DESING OFICIAL
   }
   .contSectionOfertas .contSectionOfertas_grid .descriptionGridBox3 .contDescription {
     width: 100%;
-    height: 230px;
+    height: 250px;
     padding: 10px;
     background: rgb(255, 255, 255);
     text-align: center;
@@ -1276,7 +1274,7 @@ RESPONSIVE DESING OFICIAL
   }
   .contSectionOfertas .contSectionOfertas_grid .imageGridBox3 .contImageBox3 {
     width: 100%;
-    height: 100%;
+    height: 250px;
     background: rgb(101, 5, 5);
   }
   .contSectionOfertas .contSectionOfertas_grid .descriptionGridBox4 {
@@ -1284,7 +1282,7 @@ RESPONSIVE DESING OFICIAL
   }
   .contSectionOfertas .contSectionOfertas_grid .descriptionGridBox4 .contDescription {
     width: 100%;
-    height: 230px;
+    height: 250px;
     padding: 10px;
     background: rgb(255, 255, 255);
     text-align: center;
@@ -1312,7 +1310,7 @@ RESPONSIVE DESING OFICIAL
   }
   .contSectionOfertas .contSectionOfertas_grid .imageGridBox4 .contImageBox4 {
     width: 100%;
-    height: 100%;
+    height: 250px;
     background: rgb(101, 5, 5);
   }
 }
