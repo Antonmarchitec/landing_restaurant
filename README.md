@@ -36,7 +36,6 @@ https://antonmarchitec.github.io/sitio-reposteria/
 
 ## Imagen del proyecto.
 
-![IMAGEN PLANTILLA PASTELERIA](https://user-images.githubusercontent.com/70084380/187129596-fc20410d-d866-4781-97f9-ffb97a55bb25.jpg)
 
 
 
